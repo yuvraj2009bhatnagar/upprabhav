@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width:100vw !important;
+    overflow-x:hidden;
+}
+.text-box h1{
+    font-size: 15vw !important;
+    font-family: "Bebas Neue", sans-serif !important;
+    text-align: center !important;
+}
+footer{
+  margin-top:0 !important;
+  width:100.66% !important;
+}
+@media (max-width: 749px) and (min-width: 340px) {
+    .comp-logo{
+        margin:3vh 0 2vh 0 !important;
+        height:8vh !important;
+        width:45vw !important;
+    }
+    .text-box{
+        margin-top:5vh;
+    }
+    .text-box h1{
+        font-size:13vw !important;
+        margin-top:3vh !important;
+      }
+    .header{
+        margin-top:-2vh !important;
+        width:100vw !important;
+        height:30vh;
+    }
+    .header ul {
+        display: none; 
+    }
+    .menu-icon div{
+        display:block !important;
+    }
+}
+@media (min-width: 750px) and (max-width: 1050px)  and (min-height:1000px) {
+    .comp-logo{
+        margin:3vh 0 2vh 0 !important;
+        height:10vh !important;
+        width:45vw !important;
+    }
+   .header ul {
+        display: none; 
+    }
+    .text-box h1{
+        font-size: 20vw !important;
+    }
+}
+.wol{
+    width: 22%;
+    margin-top: -3%;
+margin-left: 5%;
+    float: left;
+}
+.new{
+    width: 22%;
+    margin-top: -10%;
+margin-right: 10%;
+    float: right;
+}
+.new1{
+    margin-bottom: 2%;
+    width: 22%; 
+margin-right: 15%;
+    float: right;
+}
